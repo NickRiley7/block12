@@ -1,3 +1,4 @@
+/*universal page layout for home, about, work, and contact css*/
 body{
     background-color: rgba(8, 8, 8, 0.938);
 }
@@ -66,33 +67,73 @@ p{
     border-color: rgb(107, 124, 46);
 }
 
+footer{
+    display: flex;
+    background-color: rgba(52, 54, 54, 0.397);
+    height: 1in;
+    width: 100%;
+    color: rgb(215, 212, 28);
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
 
+
+/*universal page layout for home, about, work, and contact css end*/
+
+
+/*home page specific css*/
+.home-pic{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+}
+/*home page specific css end*/
+
+
+/*about page css*/
+.block1{
+    float: right;
+    margin-top: -100%;
+    margin-right: -60%;
+}
+
+.block2{
+    float: left;
+    margin-top: -100%;
+    margin-left: -50%;
+}
+/*about page css end*/
+
+
+/*work page specific css*/
 text{
     color: rgb(8, 6, 6);
     font-size: 50px;
 }
+/*work page specific css end*/
 
-footer{
-    background-color: rgba(52, 54, 54, 0.397);
-    margin: 2% 2%;
-    padding: 2% 20%;
-    width: 50%;
-}
 
-img{
-    display: grid
-}
-
-.grid-container{
-    display: flex;
-    background-color: rgb(20, 53, 17);
-    justify-content: center;
-}
-
+/*contact page specific css*/
 .button{
     display: flex;
     justify-content: center;
     padding: 5%;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: center;
+    color: rgb(164, 186, 74);
+}
+/*contact page css end*/
+
+
+/*form submitted page css*/
+.button2{
+    display: flex;
+    justify-content: center;
 }
 
 .form-submitted{
@@ -102,12 +143,4 @@ img{
     justify-content: center;
     font-size: 500%;
 }
-
-.button2{
-    display: flex;
-    justify-content: center;
-}
-
-    
-
-
+/*form submitted page css end*/
