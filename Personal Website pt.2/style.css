@@ -112,6 +112,22 @@ text{
     color: rgb(8, 6, 6);
     font-size: 50px;
 }
+.block3{
+    display: flex;
+    float: right;
+    margin-top: -90%;
+    margin-right: -60%;
+    height: 400px;
+    width: 50%;
+}
+.block4{
+    display: flex;
+    float: left;
+    height: 300px;
+    width: 50%;
+    margin-top: -90%;
+    margin-left: -55%;
+}
 /*work page specific css end*/
 
 
